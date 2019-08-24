@@ -1,0 +1,20 @@
+$layout: inline-block;
+
+
+#user-menu {
+  height: 50px;
+  > a {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.hidden-xs {
+  display: $layout;
+  height: 100%;
+  line-height: 50px;
+  padding: 0 5px;
+}
